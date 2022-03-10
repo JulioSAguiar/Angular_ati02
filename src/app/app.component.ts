@@ -6,15 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  title = 'angular-ex04';
 
-  valorInput: number = 0
-  
-    adiciona() {
-      this.valorInput++;
-    }
+  alertar1(e: any) {
+    console.log('Pacote 1 adquirido')
+    console.log(e)
+  }
 
-    diminui() {
-      this.valorInput--;
-    }
+  alertar2(e: any) {
+    console.log('Pacote 2 adquirido')
+    console.log(e)
+  }
 
+  alertar3(e: any) {
+    console.log('Pacote 3 adquirido')
+    console.log(e)
+  }
 }
